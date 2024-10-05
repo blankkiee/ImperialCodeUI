@@ -1,3 +1,7 @@
+
+
+
+
 # ***********************THIS IS JUST A SAMPLE FUNCTIONALITY FOR REFRESH AND ANALYZE CODE BUTTON*********************
 
 from PyQt5.QtWidgets import QTableWidgetItem
@@ -45,3 +49,6 @@ def refresh_ui(code_edit, result_table, console_edit):
 
     # Add message toconsole after refresh
     console_edit.append("UI has been refreshed!")
+
+
+#di ko magaya yung design haha sorry

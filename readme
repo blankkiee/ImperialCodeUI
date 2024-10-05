@@ -1,37 +1,15 @@
-# Simplest+
-
-Simplest+ is an object-oriented programming language that combines the simplicity of Python while encouraging good programming practices through explicit data type declarations inspired by C++. This unique blend allows developers to write code in Simplest+ that is both straightforward and robust, fostering clean and maintainable software development.
-
-The name of the programming language is derived from the word "simplest,” which refers to the simple keywords and syntax offered by it. The plus “+” symbol is added so that the name is phonetically similar to C++ when spoken.
-
 # Command-line tool
 
-To use the command-line tool for Simplest+, run...
+1. Install PyQt5 on your environtment
 
 ```
-pip install .
-```
-
-Run a program
+pip install PyQt5 //
 
 ```
-simp <file>
-```
 
-Run the command-line interface
+2.  Run the file (python <filename.py>)
 
 ```
-simp
-```
+python ui.py
 
-Run lexical
-
-```
-simp <file> -m lexical
-```
-
-Run syntax
-
-```
-simp <file> -m syntax
 ```

@@ -14,6 +14,7 @@ class MainWindow(QMainWindow):
         
         # Set the window icon (logo)
         self.setWindowIcon(QIcon("./imgLogo/imperialCodeLogo.png"))  # Set the logo image as window icon
+        
 
 
         # Main layout container widget
@@ -67,8 +68,8 @@ class MainWindow(QMainWindow):
         button_layout = QHBoxLayout()
         refresh_btn = QPushButton("Refresh")
         analyze_btn = QPushButton("Analyze Code")
-        refresh_btn.setStyleSheet("background-color: #ddd; padding: 10px;")
-        analyze_btn.setStyleSheet("background-color: #4CAF50; color: white; padding: 10px;")
+        refresh_btn.setStyleSheet("background-color: #ddd; padding: 10px; border-radius: 5px; font-weight: bold; font-size: 14px;")
+        analyze_btn.setStyleSheet("background-color: #0B6623; color: white; padding: 10px; border-radius: 5px; font-weight: bold; font-size: 14px;")
 
         # Add functionality to the analyze button
         analyze_btn.clicked.connect(lambda: analyze_code_function(self.code_edit.toPlainText(), self.result_table, self.console_edit))
